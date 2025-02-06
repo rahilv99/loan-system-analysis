@@ -1,0 +1,16 @@
+pandas
+numpy
+transformers
+easyocr
+pdf2image
+torch
+scikit-learn
+fuzzywuzzy
+matplotlib
+seaborn
+django
+djangorestframework
+django-cors-headers
+gunicorn
+
+# must download poppler to use pdf2image

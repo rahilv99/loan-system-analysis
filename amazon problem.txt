@@ -1,0 +1,71 @@
+Write a program that allows the user to calculate the price of a pizza. A pizza has:
+
+* a base
+* a size
+* toppings
+
+Assume the system stores everything in-memory, no storage required.
+
+12:42
+
+
+sm = 9
+md = 10
+lg = 11
+topping = 1
+
+sm -> 1
+md -> 2
+lg -> 3
+xl -> 4
+
+# 1. combo lg + drink
+# 2. lg
+def pizza(sz: int, toppings: int, option: '', deals: {}) -> int:
+	tot = 0
+	xtra = ''
+	
+	price_map = {
+		'garlic bread' : 2,
+		'soda' : 1
+			}
+
+	key = sz*option
+	if deals[key]:
+		deal = deals[key]
+	else:
+		deal = ''
+
+	if option:
+		if price_map[option]:
+			if option != deal:
+				xtra = option
+				tot += price_map[option]
+		
+		else:
+			if option != '':
+				return -1
+		
+	if sz < 1 or sz > 4:
+		return -1
+	if toppings < 0:
+		return -1
+	
+	return tot + 8 + sz + toppings
+
+
+lg =3 + 3 toppings
+pizza(11,3)
+
+return 14
+
+xl + garlic bread
+md + soda
+
+pizza(4,0,'garlic bread',{ 'garlic breadgarlic breadgarlic breadgarlic bread' : 'garlic bread', 'sodasoda' : 'soda' }
+
+tot = 0
+key = 'garlic breadgarlic breadgarlic breadgarlic bread'
+deal = 'garlic bread'
+
+return 12

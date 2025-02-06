@@ -1,0 +1,17 @@
+Casca Loan Identifier
+
+Factors
+1. Capacity
+	- Recurring monthly expenses
+	- Other outstanding loans
+2. Capital
+	- Evidence of investment portfolio
+	- Savings
+	- Other accounts
+	- Security (e.g IRA)
+3. Collateral
+	- 
+	
+
+-> Prompt AI with parsing json
+-> Once parsed, train model on data sources available (external)
