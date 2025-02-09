@@ -1,5 +1,5 @@
 # Bank Statement Insights
-
+https://www.loom.com/share/75ad6812a5b647d3b0d5ed6138c80e48?sid=e4c88389-bcca-4328-91d1-3c8e147755f8
 ## Overview
 A full-stack application for analyzing bank statements using machine learning and data visualization.
 
